@@ -12,11 +12,14 @@ import HotAccessories from "./components/HotAccessories.js"
 import ProductReviews from "./components/ProductReviews.js"
 import Videos from "./components/videos.js"
 import Baneer from "./components/banner.js"
+import Footer from "./components/footer.js"
+import NavOption from "./components/NavOption.js"
 
 function App() {
   return (
 <Router>
   <PreNavbar/>
+  <NavOption miPhones={data.miPhones} redmiPhones={data.redmiPhones} tv={data.tv} laptop={data.laptop} fitnessAndLifeStyle={data.fitnessAndLifeStyle} home={data.home} audio={data.audio}  accessories={data.accessories}/>
   <Navbar/>
   <Slider start={data.banner.start}/>
   <Offers offer={data.offer}/>
@@ -42,6 +45,7 @@ function App() {
   <Videos videos={data.videos}/>
   <Heading text="IN THE PRESS" />
   <Baneer banner={data.banner}/>
+  <Footer footer={data.footer}/>
 </Router>
   );
 }
