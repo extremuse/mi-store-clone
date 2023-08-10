@@ -1,0 +1,58 @@
+.nav{
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid grey;
+    height: 6rem;
+    width: 100%
+}
+.nav-inear{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: auto;
+}
+.logo{
+    background-color: orangered;
+    border-radius: 20px;
+    width: 58px;
+    height: 58px;
+    margin-right: 20px;
+    overflow-x: hidden;
+}
+.logo > a > img{
+    transform: translateX(-55px);
+    transition:0.3s all ease ;
+
+}
+.logo > a > img:hover{
+    transform: translateX(0);
+}
+.menu > a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    padding: 0px 18px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+    margin-left: auto;
+}
+.input input{
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 210px;
+    height: 2rem;
+}
+.input > input::placeholder{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: rgb(142, 143, 144);
+}

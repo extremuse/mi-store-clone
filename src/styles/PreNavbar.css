@@ -1,0 +1,37 @@
+.preNav{
+    background-color: rgb(34, 33, 33);
+    width: 100%;
+    height:3rem;
+}
+.preNav-inner{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100%;
+}
+.preNav-inner > div >span{
+    color: rgb(114, 114, 114);
+}
+.preNav-inner div a{
+    color: rgb(160, 160, 160);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:0.85rem;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.preNav-inner div{
+    display: flex;
+    align-items: center;
+}
+.preNav .preNav-inner > div svg{
+    fill: rgb(144, 142, 142);
+    font-size: 1rem;
+}
+.preNav .preNav-inner > div:nth-child(2) svg:hover{
+    fill: rgb(209, 205, 205);
+}
