@@ -1,5 +1,35 @@
 .backgroundImage{
-    width: 500px;
-    height: 500px;
+    width: 395px;
+    height: 320px;
+    background-color: antiquewhite;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.backgroundImage > a{
+    background-color: rgb(254, 254, 254, 0.1);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: all ease 0.3s;
+    
+}
+.backgroundImage:hover a{
+    background-color: rgb(254, 254, 254, 0.4);
+}
+.backgroundImage >a > svg {
+    fill: white;
+}
+.backgroundImage >a:hover svg{
+    fill :white
+}
+.backgroundImage >p{
+    color: white;
 }

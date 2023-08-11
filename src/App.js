@@ -13,7 +13,7 @@ import ProductReviews from "./components/ProductReviews.js"
 import Videos from "./components/videos.js"
 import Baneer from "./components/banner.js"
 import Footer from "./components/footer.js"
-import NavOption from './components/navOption';
+import NavOption from "./components/NavOption"
 
 function App() {
   return (

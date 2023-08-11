@@ -1,5 +1,6 @@
 import React from 'react'
 import VideosCard from './videosCard.js'
+import "../styles/video.css"
 
 const videos = ({videos}) => {
   return (

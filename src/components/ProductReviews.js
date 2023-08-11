@@ -1,5 +1,6 @@
 import React from 'react'
 import ProductReviewsCard from './ProductReviewsCard.js'
+import "../styles/productReviews.css"
 
 const ProductReviews = ({ProductReviews}) => {
   return (

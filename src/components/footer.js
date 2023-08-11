@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "../styles/prefooter.css"
 
 
 const repeatIcon = <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 6v3l4-4-4-4v3c-4.42 0-8 3.58-8 8 0 1.57.46 3.03 1.24 4.26L6.7 14.8c-.45-.83-.7-1.79-.7-2.8 0-3.31 2.69-6 6-6zm6.76 1.74L17.3 9.2c.44.84.7 1.79.7 2.8 0 3.31-2.69 6-6 6v-3l-4 4 4 4v-3c4.42 0 8-3.58 8-8 0-1.57-.46-3.03-1.24-4.26z"/></svg>
@@ -30,34 +30,35 @@ const footer = ({footer}) => {
     <div className="prefooter">
         <div className="prefooterIneer">
             <div>{repeatIcon} <p><b>Hassle-free replacement</b><br/>
-            10-day easy replacement policy on mi.com</p></div>
-        </div>
-        <div>
+            10-day easy replacement policy on mi.com</p>
+            </div>
+            <div>
             {shieldIcon}<p><b>100% secure payments</b><br/>
             We support Cards, Wallets, EMI and COD</p>
-        </div>
-        <div>
+            </div>
+            <div>
             {mapIcon}<p><b>Vast service network</b><br/>
             1000 Mi service-centers across 600 cities</p>
-        </div>
-    </div>
-    <div className="prefooterBottom">
-        <div><p><b>LET'S STAY IN TOUCH</b><br/>Get updates on slaes specials and more</p></div>
-        <div>
-            <div className="input">
-                <input type="text" placeholder='Eneter Email Address' max='400'/><span>{greater}</span>
             </div>
-            <div><p>Thanks. You're on our email list for special offers.</p></div>
         </div>
-        <div><p><b>FOLLOW MI</b><br/>We want to hear from you!</p></div>
-        <div>{facebookIcon}{youtubeIcon}{instagramIcon }{twitterIcon}</div>
+        <div className="prefooterBottom">
+            <div><p><b>LET'S STAY IN TOUCH</b><br/>Get updates on slaes specials and more</p></div>
+            <div>
+                <div className="input">
+                    <input type="text" class="inputText" placeholder='Eneter Email Address' max='400'/><span>{greater}</span>
+                </div>
+                <div><p>Thanks. You're on our email list for special offers.</p></div>
+                </div>
+            <div><p><b>FOLLOW MI</b><br/>We want to hear from you!</p></div>
+            <div>{facebookIcon}{youtubeIcon}{instagramIcon }{twitterIcon}</div>
+        </div>
     </div>
 
     {/*----------Footer---------*/}
 
     <div className='footer' style={{display:'flex',flexDirection:'row'}}>
         <div style={{display:'flex',flexDirection:'column'}}>
-            <h3>SUPPORT</h3>
+            <h5>SUPPORT</h5>
             {
                 footer.support.map((item)=>(
                     <a href={item.url} key={item.url}>{item.name}</a>
@@ -65,7 +66,7 @@ const footer = ({footer}) => {
             }
         </div>
         <div style={{display:'flex',flexDirection:'column'}}>
-            <h3>SHOP AND LEARN</h3>
+            <h5>SHOP AND LEARN</h5>
             {
                 footer.shopAndLearn.map((item)=>(
                     <a href={item.url} key={item.url}>{item.name}</a>
@@ -73,7 +74,7 @@ const footer = ({footer}) => {
             }
         </div>
         <div style={{display:'flex',flexDirection:'column'}}>
-            <h3>RETAIL STORE </h3>
+            <h5>RETAIL STORE </h5>
             {
                 footer.retailStore.map((item)=>(
                     <a href={item.url} key={item.url}>{item.name}</a>
@@ -81,7 +82,7 @@ const footer = ({footer}) => {
             }
         </div>
         <div style={{display:'flex',flexDirection:'column'}}>
-            <h3>ABOUT</h3>
+            <h5>ABOUT</h5>
             {
                 footer.aboutUS.map((item)=>(
                     <a href={item.url} key={item.url}>{item.name}</a>
@@ -89,7 +90,7 @@ const footer = ({footer}) => {
             }
         </div>
         <div style={{display:'flex',flexDirection:'column'}}>
-            <h3>CONTACT US </h3>
+            <h5>CONTACT US </h5>
             {
                 footer.contactUs.map((item)=>(
                     <a href={item.url} key={item.url}>{item.name}</a>
@@ -98,7 +99,7 @@ const footer = ({footer}) => {
         </div>
         <div>
             <p>Chat with our Virtual AI<br/> Bot(24/7 Live Agent Support)</p>
-            <span>CHAT NOW</span>
+            <span className='chat'>CHAT NOW</span>
         </div>
         
     </div>

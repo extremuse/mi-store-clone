@@ -1,0 +1,118 @@
+.prefooter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 80px 0px 40px 0px;
+}
+.prefooter > .prefooterIneer , .prefooterBottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.prefooterIneer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.prefooterIneer > div >svg{
+    width: 40px;
+    height: 40px;
+    fill: rgb(181, 179, 179);
+}
+.prefooterIneer > div:hover svg{
+    fill: black;
+}
+.prefooterBottom > div >p >b{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.prefooterBottom > div >p{
+    font-weight: 300;
+}
+.input > .inputText{
+    width: 350px;
+    border: 1px solid rgb(194, 190, 190);
+    padding: 17px;
+    font-size: 1rem;
+}
+.input > .inputText::placeholder{
+    font-size: 1rem;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+.input >span {
+    position: relative;
+    left: -5%;
+}
+.input >span > svg{
+    width: 12px;
+    height: 12px;
+    fill: rgb(77, 76, 76);
+}
+.prefooterBottom > div:nth-child(2){
+    font-weight: 300;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.prefooterBottom > div:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.prefooterBottom > div:nth-child(2) ,svg{
+    fill: rgb(168, 167, 167);
+}
+.prefooterBottom > div:nth-child(2) ,svg:hover{
+    fill: rgb(179, 177, 177);
+}
+
+/*-----------footer------------*/
+
+.footer{
+    background-color: black;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 80px 80px;
+}
+.footer > div > h5{
+    padding-bottom: 10px;
+    color: #f8f5f5;
+    font-weight: 300;
+}
+.footer > div > a{
+    text-decoration: none;
+    color: #fefcfc;
+    font-weight: 200;
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+}
+.footer div:nth-child(6){
+    color: #f8f5f5;
+    font-weight: 300;
+    font-size: 0.7rem;
+}
+.chat{
+    border: 1px solid #f8f5f5;
+    padding: 12px 40px ;
+    font-size: 0.9rem;
+}
+
+/*------------copyright---------*/
+
+.copyright{
+    background-color: black;
+}
+.copyright > p{
+    border:none ;
+    border-top: 1px solid #636262;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    color: #f8f5f5;
+    font-weight: 100;
+}

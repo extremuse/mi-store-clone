@@ -1,4 +1,5 @@
 import React from 'react'
+import "../styles/ProductReviewsCard.css"
 
 const ProductReviewsCard = ({src, name ,index , price , review}) => {
   return (
