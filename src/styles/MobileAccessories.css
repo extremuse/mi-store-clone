@@ -18,3 +18,12 @@
     border: none;
     border-bottom: 1px solid orangered;;
 }
+@media screen  and (max-width:663px){
+    .HotAccessoriesMenu{
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .HotAccessoriesMenu > a{
+        font-size: 0.7rem;
+    }
+}

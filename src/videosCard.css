@@ -33,3 +33,23 @@
 .backgroundImage >p{
     color: white;
 }
+@media screen  and (max-width:1315px){
+    .backgroundImage{
+        width: 320px;
+        height: 300px;
+    }
+}
+@media screen  and (max-width:1070px){
+    .backgroundImage{
+        width: 280px;
+        height: 280px;
+    }
+}
+@media screen  and (max-width:663px){
+    .backgroundImage{
+        width: 320px;
+        height: 250px;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+}

@@ -1,0 +1,82 @@
+.hamburger-menu{
+    position: relative;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 999;
+}
+.hamburger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    gap: 4px;
+    height: 100%;
+    position: relative;
+    z-index: 999;
+}
+.hamburger-menu >.hamburger > .bar{
+    background-color: orangered;
+    width:28px ;
+    height: 3px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    transform: all 0.3s ease;
+}
+@media screen  and (max-width:663px){
+    .hamburger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+        width: 100%;
+    }
+    .open .bar:nth-child(1){
+        transform: translateY(12px)  rotate(225deg);
+    }
+    .open .bar:nth-child(2){
+        transform:translateX(15px);
+        opacity: 0%;
+    }
+    .open .bar:nth-child(3){
+        transform: translateY(-12px)  rotate(-225deg);
+    }
+    .hamburgerDisplay{
+        display: block;
+    }
+}
+@media screen  and (max-width:663px){
+    .open {
+        transform: translateX(0) !important;
+        opacity: 1 !important;
+    }
+    #menu2{
+        position: absolute;
+        display: flex;
+        opacity: 0;
+        justify-content: center;
+        flex-direction: column;
+        top: 48px;
+        bottom: 0;
+        right: 0;
+        z-index: 900;
+        gap: 20px;
+        background-color:rgb(255, 251, 251);
+        width: 60%;
+        height: 80%;
+        transform: translateX(400px);
+        transform: all 0.4s;
+        transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    }
+    #menu2 > a{
+        text-decoration: none;
+        font-size: 1rem;
+        color: black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 0px 18px;
+    }
+}

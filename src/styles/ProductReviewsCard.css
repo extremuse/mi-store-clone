@@ -44,3 +44,37 @@
     display: flex;
     margin: 0;
 }
+@media screen  and (max-width:1315px){
+    .ProductReviewsCard{
+        width: 500px;
+    }
+}
+@media screen  and (max-width:1070px){
+    .ProductReviewsCard{
+        width: 450px;
+    }
+    .content >h3{
+        font-size: 1.2rem;
+    }
+    .content > section{
+        gap: 10px;
+    }
+}
+@media screen  and (max-width:663px){
+    .ProductReviewsCard{
+        width: 350px;
+    }
+    .ProductReviewsCard > .cardimage >img{
+        width: 350px;
+        height: 200px;
+        background-size: cover;
+    }
+    .content >h3{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .content > section  h4 , p{
+        gap: 10px;
+        font-size: 0.9rem;
+    }
+}

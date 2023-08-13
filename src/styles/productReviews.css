@@ -5,3 +5,9 @@
     gap: 20px;
     padding-top: 20px;
 }
+@media screen  and (max-width:663px){
+    .ProductReviews{
+        flex-direction: column;
+        gap: 0px;
+    }
+}

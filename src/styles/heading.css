@@ -18,3 +18,28 @@
     font-weight: 400;
     color: rgb(71, 72, 72);
 }
+@media screen  and (max-width:1315px){
+    .heading{
+        gap: 10px;
+    }
+    .text{
+        font-size: 2.5rem;
+    }
+}
+@media screen  and (max-width:1070px){
+    .heading{
+        gap: 5px;
+    }
+    .text{
+        font-size: 2rem;
+    }
+}
+@media screen  and (max-width:663px){
+    .heading{
+        gap: 5px;
+        margin-bottom: 18px;
+    }
+    .text{
+        font-size: 0.9rem;
+    }
+}

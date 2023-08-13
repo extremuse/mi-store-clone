@@ -5,10 +5,11 @@
     margin-bottom: 100PX;
 }
 
-.HotAccessories > div:first-child > img{
+.HotAccessories > div:nth-child(1)> img{
     cursor: pointer;
     transition: all 0.5s;
-    width: 22vw;
+    width: 20vw;
+
   }
 
   .HotAccessories > div:first-child > img:hover{
@@ -20,5 +21,26 @@
 .HotAccessories > div:last-child{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
   }
-  
+  @media screen  and (max-width:663px){
+    .HotAccessories{
+      flex-direction: column;
+    }
+    .HotAccessories > div:nth-child(1)> img{
+      width: 100%;
+    }
+    .HotAccessories > div:last-child{
+      flex: 0;
+      width: 100%;
+      gap: 0px;
+    }
+    .HotAccessories > div:last-child >div {
+      width: 100px;
+    }
+    .HotAccessories > div:last-child >div >p{
+      font-size: 0.7rem;
+      text-align: center; 
+    }
+  }

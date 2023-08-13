@@ -6,7 +6,6 @@ import '../styles/slider.css'
 const Slider = ({start}) => {
     return (
         <Carousel fade>
-       
 
        {start.map((item)=>(
             <Carousel.Item>

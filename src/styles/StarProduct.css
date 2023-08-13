@@ -9,3 +9,39 @@
     box-shadow: 0px 0px  10px rgb(157, 155, 155);
     transition: all 0.3s ease;
 }
+@media screen  and (max-width:1315px){
+    .left a >img{
+        width:500px
+    }
+    .right .right-bottom a >img{
+        width: 500px;
+    }
+    .right .right-upper a >img{
+        width: 250px;
+    }
+}
+@media screen  and (max-width:1070px){
+    .left a >img{
+        width:380px
+    }
+    .right .right-bottom a >img{
+        width: 380px;
+    }
+    .right .right-upper a >img{
+        width: 190px;
+    }
+}
+@media screen  and (max-width:663px){
+    .left a >img{
+        width:150px
+    }
+    .right .right-bottom a >img{
+        width: 150px;
+    }
+    .right .right-upper a >img{
+        width: 75px;
+    }
+    .StarProduct{
+        margin-bottom: 20px;
+    }
+}

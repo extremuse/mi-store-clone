@@ -59,3 +59,42 @@
     font-weight: 100;
     color: rgb(142, 143, 144);
 }
+@media screen  and (max-width:1315px){
+    .input input{
+        width: 150px;
+    }
+    .input > input::placeholder{
+        font-size: 1rem;
+    }
+    .menu > a{
+        padding: 0px 13px;
+    }
+    .nav-inear{
+        width: 93%;
+    }
+}
+@media screen  and (max-width:1070px){
+    .menu > a{
+        padding: 0px 10px;
+        font-size: 0.9rem;
+    }
+    .nav-inear{
+        width: 93%;
+    }
+}
+@media screen  and (max-width:663px){
+     .menu{
+        display: none;
+    }
+    .logo{
+        border-radius: 14px;
+        width: 38px;
+        height: 38px;
+    }
+    .logo > a > img{
+        transform: translateX(-38px);
+        transition:0.3s all ease ;
+        height: 38px;
+    
+    }
+}

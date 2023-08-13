@@ -11,3 +11,29 @@
     box-shadow: 3px 3px  10px rgb(188, 185, 185);
     transition: all 0.3s ease;
 }
+@media screen  and (max-width:1315px){
+    .offerSection >a >img{
+        width: 330px;
+    }
+}
+@media screen  and (max-width:1070px){
+    .offerSection >a >img{
+        width: 270px;
+    }
+}
+@media screen  and (max-width:663px){
+    .offerSection{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 5px;
+        margin: 10px;
+    }
+    .offerSection > div{
+        width: 200px;
+    }
+    .offerSection > div > a >img{
+        width: 100%;
+        height: 100%;
+        
+    }
+}

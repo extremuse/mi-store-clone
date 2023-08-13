@@ -30,8 +30,28 @@
 }
 .preNav .preNav-inner > div svg{
     fill: rgb(144, 142, 142);
-    font-size: 1rem;
 }
 .preNav .preNav-inner > div:nth-child(2) svg:hover{
     fill: rgb(209, 205, 205);
+}
+@media screen  and (max-width:663px){
+    .preNav-inner div a{
+        font-size:0.55rem;
+        padding: 0px 2px;
+        margin: 0px;
+    }
+    .preNav-inner{
+        width: 98%;
+    }
+    .preNav-inner > div >span{
+        font-size: 0.65rem;
+        margin: 0;
+        line-height: 0.7rem;
+        position: relative;
+        top: -1px;
+    }
+    .preNav .preNav-inner > div svg{
+        font-size: 0.55rem;
+        width: 14px;
+    }
 }

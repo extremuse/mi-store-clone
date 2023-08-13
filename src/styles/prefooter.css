@@ -4,6 +4,7 @@
     flex-direction: column;
     gap: 30px;
     padding: 80px 0px 40px 0px;
+    width: 100%;
 }
 .prefooter > .prefooterIneer , .prefooterBottom{
     display: flex;
@@ -115,4 +116,121 @@
     padding: 20px;
     color: #f8f5f5;
     font-weight: 100;
+}
+@media screen  and (max-width:1315px){
+    .chat{
+        padding: 12px 20px ;
+    }
+}
+@media screen  and (max-width:1070px){
+    .prefooter{
+        width: 95%;
+        align-items: center;
+    }
+    /* .copyright > p{
+        font-size: ;
+    } */
+    .chat{
+        padding: 8px 15px ;
+    }
+    .prefooterIneer > div {
+        gap: 10px;
+    }
+    .footer > div > h5{
+        font-size: 0.9rem;
+    }
+    .footer > div > a{
+        font-size: 0.7rem;
+    }
+    .prefooterBottom > div:nth-child(2){
+        gap: 3px;
+    }
+    .input > .inputText::placeholder{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    .input > .inputText{
+        width: 250px;
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+    .input >span {
+        left: -8%;
+    }
+    .prefooterBottom > div >p >b{
+        font-size: 1.2rem;
+    }
+    .prefooterBottom > div:nth-child(4){
+        gap: 20px;
+    }
+}
+@media screen  and (max-width:663px){
+    .prefooter{
+        width: 100%;
+        padding: 20px 0px 0px 0px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    /* .copyright > p{
+        font-size: ;
+    } */
+    .chat{
+        padding: 8px 15px ;
+    }
+    .prefooterIneer{
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 20px;
+    }
+    .prefooterIneer > div {
+        gap: 10px;
+        
+    }
+    .prefooterIneer > div >svg{
+        position: relative;
+        bottom: 5px;
+    }
+    .footer > div > h5{
+        font-size: 0.9rem;
+    }
+    .footer > div > a{
+        font-size: 0.7rem;
+    }
+    .prefooterBottom{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding-bottom: 20px;
+        padding-left: 25px;
+        width: 100%;
+    }
+    .prefooterBottom > div:nth-child(2){
+        gap: 3px;
+        align-items: flex-start;
+    }
+    .input > .inputText::placeholder{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    .input{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .input > .inputText{
+        width: 250px;
+        padding: 5px;
+        font-size: 0.8rem;
+        position: relative;
+    }
+    .input >span {
+        left: -8%;
+    }
+    .prefooterBottom > div >p >b{
+        font-size: 1.2rem;
+    }
+    .prefooterBottom > div:nth-child(4){
+        gap: 20px;
+    }
 }
