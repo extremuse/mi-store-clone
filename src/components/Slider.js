@@ -5,7 +5,7 @@ import '../styles/slider.css'
 
 const Slider = ({start}) => {
     return (
-        <Carousel fade>
+        <Carousel fade className='slider'>
 
        {start.map((item)=>(
             <Carousel.Item>

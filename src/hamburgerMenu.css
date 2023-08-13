@@ -16,6 +16,9 @@
     position: relative;
     z-index: 999;
 }
+#menu2{
+    display: none;
+}
 .hamburger-menu >.hamburger > .bar{
     background-color: orangered;
     width:28px ;

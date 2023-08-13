@@ -53,6 +53,9 @@
     width: 210px;
     height: 2rem;
 }
+.input input:focus{
+    outline: none;
+}
 .input > input::placeholder{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.3rem;
