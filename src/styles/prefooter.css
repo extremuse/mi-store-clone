@@ -28,9 +28,11 @@
 .prefooterBottom > div >p >b{
     font-size: 1.5rem;
     font-weight: 500;
+    text-align: center;
 }
 .prefooterBottom > div >p{
     font-weight: 300;
+    text-align: center;
 }
 .input > .inputText{
     width: 350px;
@@ -77,6 +79,8 @@
 .footer{
     background-color: black;
     justify-content: flex-start;
+    display: flex;
+    flex-direction:row;
     gap: 30px;
     padding: 80px 80px;
 }
@@ -85,12 +89,18 @@
     color: #f8f5f5;
     font-weight: 300;
 }
-.footer > div > a{
+.footer > div > div > a{
     text-decoration: none;
     color: #fefcfc;
     font-weight: 200;
     font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
     padding-bottom: 10px;
+}
+.footer > div{
+    flex-direction: column;
+
 }
 .footer div:nth-child(6){
     color: #f8f5f5;
@@ -181,6 +191,7 @@
         flex-direction: column;
         gap: 10px;
         padding-left: 20px;
+        border-bottom: 1px solid grey;
     }
     .prefooterIneer > div {
         gap: 10px;
@@ -198,7 +209,7 @@
     }
     .prefooterBottom{
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 10px;
         padding-bottom: 20px;
         padding-left: 25px;
@@ -206,16 +217,23 @@
     }
     .prefooterBottom > div:nth-child(2){
         gap: 3px;
-        align-items: flex-start;
+        align-items: center;
     }
+    /* .prefooterBottom >div{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } */
     .input > .inputText::placeholder{
         font-size: 0.8rem;
         font-weight: 300;
     }
     .input{
         display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
+        align-items: center;
+        justify-content: center;
         width: 100%;
     }
     .input > .inputText{
@@ -232,5 +250,56 @@
     }
     .prefooterBottom > div:nth-child(4){
         gap: 20px;
+    }
+    .prefooterBottom > div:nth-child(2) {
+        text-align: center;
+    }
+    /*----------footer-----------*/
+    .footer{
+        justify-content: flex-start;
+        gap: 5px;
+        padding: 10px 10px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        flex: 1;
+    }
+    .footer > div{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer > div > h5{
+        padding-bottom: 10px;
+        color: #f8f5f5;
+        font-weight: 300;
+        font-size: 0.6rem;
+    }
+    .footer > div > div > a{
+        text-decoration: none;
+        color: #fefcfc;
+        font-weight: 200;
+        font-size: 0.5rem;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        display: flex;
+        gap: 30px;
+    }
+    .footer > div > div{
+        flex-direction:row ;
+        display: none;
+    }
+    .footer div:nth-child(6){
+        color: #f8f5f5;
+        font-weight: 300;
+        font-size: 0.4rem;
+        padding-bottom: 20px;
+    }
+    .chat{
+        border: 1px solid #f8f5f5;
+        padding: 8px 20px ;
+        font-size: 0.9rem;
+    }
+    .copyright > p{
+        font-size: 0.5rem;
     }
 }

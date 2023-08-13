@@ -26,10 +26,12 @@
         flex-direction: column;
         flex-wrap: nowrap;
         gap: 5px;
-        margin: 10px;
+        height:40rem;
+        margin: 10px 0px 10px 0px;
     }
     .offerSection > div{
-        width: 200px;
+        width: 350px;
+        height: 200px !important;
     }
     .offerSection > div > a >img{
         width: 100%;

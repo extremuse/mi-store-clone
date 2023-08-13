@@ -33,15 +33,17 @@
 }
 @media screen  and (max-width:663px){
     .left a >img{
-        width:150px
+        width:280px
     }
     .right .right-bottom a >img{
-        width: 150px;
+        width: 280px;
     }
     .right .right-upper a >img{
-        width: 75px;
+        width: 140px;
     }
     .StarProduct{
+        margin-bottom: 280px;
+        flex-direction: column;
         margin-bottom: 20px;
     }
 }

@@ -37,10 +37,13 @@
       gap: 0px;
     }
     .HotAccessories > div:last-child >div {
-      width: 100px;
+      width: 120px;
     }
     .HotAccessories > div:last-child >div >p{
       font-size: 0.7rem;
       text-align: center; 
+    }
+    .HotItemCard > img{
+      width: 100%;
     }
   }

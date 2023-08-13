@@ -29,15 +29,15 @@ const footer = ({footer}) => {
         {/*----------pre-footer---------*/}
     <div className="prefooter">
         <div className="prefooterIneer">
-            <div>{repeatIcon} <p><b>Hassle-free replacement</b><br/>
+            <div>{repeatIcon} <p className='prefooter-para'><b>Hassle-free replacement</b><br/>
             10-day easy replacement policy on mi.com</p>
             </div>
             <div>
-            {shieldIcon}<p><b>100% secure payments</b><br/>
+            {shieldIcon}<p className='prefooter-para'><b>100% secure payments</b><br/>
             We support Cards, Wallets, EMI and COD</p>
             </div>
             <div>
-            {mapIcon}<p><b>Vast service network</b><br/>
+            {mapIcon}<p className='prefooter-para'><b>Vast service network</b><br/>
             1000 Mi service-centers across 600 cities</p>
             </div>
         </div>
@@ -56,46 +56,51 @@ const footer = ({footer}) => {
 
     {/*----------Footer---------*/}
 
-    <div className='footer' style={{display:'flex',flexDirection:'row'}}>
-        <div style={{display:'flex',flexDirection:'column'}}>
+    <div className='footer' style={{display:'flex'}}>
+        <div  style={{display:'flex'}}>
             <h5>SUPPORT</h5>
-            {
+            <div>            {
                 footer.support.map((item)=>(
                     <a href={item.url} key={item.url}>{item.name}</a>
                 ))
-            }
+            }</div>
+
         </div>
-        <div style={{display:'flex',flexDirection:'column'}}>
+        <div style={{display:'flex'}}>
             <h5>SHOP AND LEARN</h5>
-            {
+            <div>            {
                 footer.shopAndLearn.map((item)=>(
                     <a href={item.url} key={item.url}>{item.name}</a>
                 ))
-            }
+            }</div>
+
         </div>
-        <div style={{display:'flex',flexDirection:'column'}}>
+        <div style={{display:'flex'}}>
             <h5>RETAIL STORE </h5>
-            {
+            <div>            {
                 footer.retailStore.map((item)=>(
                     <a href={item.url} key={item.url}>{item.name}</a>
                 ))
-            }
+            }</div>
+
         </div>
-        <div style={{display:'flex',flexDirection:'column'}}>
+        <div style={{display:'flex'}}>
             <h5>ABOUT</h5>
-            {
+            <div>            {
                 footer.aboutUS.map((item)=>(
                     <a href={item.url} key={item.url}>{item.name}</a>
                 ))
-            }
+            }</div>
+
         </div>
-        <div style={{display:'flex',flexDirection:'column'}}>
+        <div style={{display:'flex'}}>
             <h5>CONTACT US </h5>
-            {
+            <div>            {
                 footer.contactUs.map((item)=>(
                     <a href={item.url} key={item.url}>{item.name}</a>
                 ))
-            }
+            }</div>
+
         </div>
         <div>
             <p>Chat with our Virtual AI<br/> Bot(24/7 Live Agent Support)</p>
@@ -104,7 +109,7 @@ const footer = ({footer}) => {
         
     </div>
     <div className='copyright'>
-        <p>Copyright © 2010 - 2021 Xiaomi. All Rights Reserved</p>
+        <p>Clone of Xiaomi app by Sachin Kumar</p>
     </div>
     </>
   )

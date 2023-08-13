@@ -40,9 +40,9 @@
     color: orangered;
     text-decoration: none;
 }
-.input{
+.nav-inear >.input{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items:center ;
 
     margin-left: auto;
@@ -88,13 +88,26 @@
     }
     .logo{
         border-radius: 14px;
-        width: 38px;
-        height: 38px;
+        width: 53px;
+        height: 37px;
     }
     .logo > a > img{
-        transform: translateX(-38px);
+        transform: translateX(-32.5px);
         transition:0.3s all ease ;
-        height: 38px;
+        height: 35px;
     
+    }
+}
+@media screen  and (max-width:360px){
+    .logo > a > img{
+        transform: translateX(-33px);
+        transition:0.3s all ease ;
+        height: 35px;
+    
+    }
+    .logo{
+        border-radius: 14px;
+        width: 55px;
+        height: 37px;
     }
 }
