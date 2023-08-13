@@ -62,7 +62,7 @@
     font-weight: 100;
     color: rgb(142, 143, 144);
 }
-@media screen  and (max-width:1315px){
+@media screen  and (max-width:1417px){
     .input input{
         width: 150px;
     }
@@ -76,22 +76,22 @@
         width: 93%;
     }
 }
-@media screen  and (max-width:1070px){
+@media screen  and (max-width:1144px){
     .menu > a{
-        padding: 0px 10px;
         font-size: 0.9rem;
+        padding: 0px 10px;
     }
     .nav-inear{
         width: 93%;
     }
 }
-@media screen  and (max-width:663px){
+@media screen  and (max-width:991px){
      .menu{
         display: none;
     }
     .logo{
         border-radius: 14px;
-        width: 53px;
+        width: 40px;
         height: 37px;
     }
     .logo > a > img{
@@ -99,6 +99,15 @@
         transition:0.3s all ease ;
         height: 35px;
     
+    }
+    @media screen  and (max-width:663px){
+        .logo{
+            width: 50px;
+            height: 37px;
+        }
+    }
+    .nav{
+        height: 4rem;
     }
 }
 @media screen  and (max-width:360px){

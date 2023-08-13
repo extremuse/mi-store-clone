@@ -29,7 +29,7 @@
     align-items: center;
     transform: all 0.3s ease;
 }
-@media screen  and (max-width:663px){
+@media screen  and (max-width:991px){
     .hamburger{
         display: flex;
         justify-content: center;
@@ -51,7 +51,7 @@
         display: block;
     }
 }
-@media screen  and (max-width:663px){
+@media screen  and (max-width:991px){
     .open {
         transform: translateX(0) !important;
         opacity: 1 !important;

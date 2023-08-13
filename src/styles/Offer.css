@@ -14,11 +14,13 @@
 @media screen  and (max-width:1315px){
     .offerSection >a >img{
         width: 330px;
+        padding: 0px 20px;
     }
 }
 @media screen  and (max-width:1070px){
     .offerSection >a >img{
         width: 270px;
+        padding: 0px 20px;
     }
 }
 @media screen  and (max-width:663px){
@@ -28,6 +30,7 @@
         gap: 5px;
         height:40rem;
         margin: 10px 0px 10px 0px;
+        padding: 0px 20px;
     }
     .offerSection > div{
         width: 350px;
