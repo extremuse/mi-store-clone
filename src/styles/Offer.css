@@ -14,13 +14,11 @@
 @media screen  and (max-width:1315px){
     .offerSection >a >img{
         width: 330px;
-        padding: 0px 20px;
     }
 }
 @media screen  and (max-width:1070px){
     .offerSection >a >img{
         width: 270px;
-        padding: 0px 20px;
     }
 }
 @media screen  and (max-width:663px){
