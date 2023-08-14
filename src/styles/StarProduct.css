@@ -22,13 +22,13 @@
 }
 @media screen  and (max-width:1070px){
     .left a >img{
-        width:380px
+        width:340px
     }
     .right .right-bottom a >img{
-        width: 380px;
+        width: 340px;
     }
     .right .right-upper a >img{
-        width: 190px;
+        width: 168px;
     }
 }
 @media screen  and (max-width:663px){

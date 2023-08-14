@@ -136,6 +136,7 @@
     .prefooter{
         width: 95%;
         align-items: center;
+        margin: auto;
     }
     /* .copyright > p{
         font-size: ;
@@ -143,8 +144,12 @@
     .chat{
         padding: 8px 15px ;
     }
-    .prefooterIneer > div {
+    .prefooterIneer  {
         gap: 10px;
+    }
+    .prefooterIneer > div {
+        gap: 5px;
+        justify-content: center;
     }
     .footer > div > h5{
         font-size: 0.9rem;
@@ -192,6 +197,7 @@
         gap: 10px;
         padding-left: 20px;
         border-bottom: 1px solid grey;
+        width: 100%;
     }
     .prefooterIneer > div {
         gap: 10px;

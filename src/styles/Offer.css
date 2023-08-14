@@ -21,6 +21,20 @@
         width: 270px;
     }
 }
+@media screen  and (max-width:991px){
+    .offerSection >a >img{
+        width: 100%;
+        height: 180px;
+    }
+    .offerSection{
+        gap: 4px;
+        padding: 5px;
+    }
+    .offerSection > div{
+        /* height: 180px !important; */
+    }
+
+}
 @media screen  and (max-width:663px){
     .offerSection{
         flex-direction: column;
