@@ -100,14 +100,22 @@
         height: 35px;
     
     }
-    @media screen  and (max-width:663px){
-        .logo{
-            width: 50px;
-            height: 37px;
-        }
+
+}
+@media screen  and (max-width:663px){
+    .logo{
+        width: 50px;
+        height: 37px;
     }
     .nav{
         height: 4rem;
+    }
+    .logo > a > img{
+        transform: translateX(-24px);
+        transition:0.3s all ease ;
+        height: 100%;
+        width: 150%;
+    
     }
 }
 @media screen  and (max-width:360px){

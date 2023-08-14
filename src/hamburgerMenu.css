@@ -20,14 +20,14 @@
     display: none;
 }
 .hamburger-menu >.hamburger > .bar{
-    background-color: orangered;
+    background-color: rgb(154, 153, 153);
     width:28px ;
     height: 3px;
     display: flex;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    transform: all 0.3s ease;
+    transition: all 0.5s;
 }
 @media screen  and (max-width:991px){
     .hamburger{
@@ -71,8 +71,8 @@
         width: 60%;
         height: 80%;
         transform: translateX(400px);
-        transform: all 0.4s;
-        transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.5s;
+        transition-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);
 
     }
     #menu2 > a{
