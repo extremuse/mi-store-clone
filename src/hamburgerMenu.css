@@ -72,7 +72,7 @@
         
         background-color:rgb(255, 251, 251);
         width: 20%;
-        height: 80%;
+        height: 40%;
         overflow: hidden;
         transform: translateX(400px);
         transition: all 0.5s;
@@ -92,5 +92,6 @@
 @media screen  and (max-width:600px){
     #menu2{
         width: 60%;
+        height: 80%;
     }
 }
