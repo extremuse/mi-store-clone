@@ -6,7 +6,6 @@ function HamburgerMenu() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
   return (
     <>
     <div className={`hamburger-menu ${isOpen ? 'open' : ''}`}>
@@ -16,7 +15,7 @@ function HamburgerMenu() {
             <div className="bar"></div>
         </div>
     </div>
-    <div id='menu2'className={`hamburger-menu ${isOpen ? 'open' : ''}`} >
+    <div id='menu2'className={`Menu ${isOpen ? 'openmenu' : ''}`} >
           <a href="/#miphones" className="navlinks">Mi Phones</a>
           <a href="/#redmiphones" className="navlinks">Redmi Phones</a>
           <a href="/#tv" className="navlinks">TV</a>

@@ -20,7 +20,7 @@ function App() {
 <Router>
   <PreNavbar/>
   <NavOption miPhones={data.miPhones} redmiPhones={data.redmiPhones} tv={data.tv} laptop={data.laptop} fitnessAndLifeStyle={data.fitnessAndLifeStyle} home={data.home} audio={data.audio}  accessories={data.accessories}/>
-  <Navbar/>
+  <Navbar/> 
   <Slider start={data.banner.start}/>
   <Offers offer={data.offer}/>
   <Heading text="STAR PRODUCT" />
